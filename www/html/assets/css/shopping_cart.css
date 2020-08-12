@@ -1,0 +1,66 @@
+body {
+  width: 1333px;
+}
+header {
+  display: flex;
+}
+.header_menu {
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  text-align: center;
+  border: solid 2px;
+  border-radius: 10px;
+  background-color: yellow;
+  margin-right: 1px;
+  flex: 1;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  background-color: orange;
+  margin-top: 8px;
+  font: 30px;
+}
+img {
+  height: 150px;
+}
+table {
+width: 1250px;
+border-collapse: collapse;
+margin-left: auto;
+margin-right: auto;
+}
+table, tr, th, td {
+border: solid 1px;
+padding: 10px;
+text-align: center;
+}
+#products_name {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color:blue;
+}
+#products_name:hover {
+  cursor: pointer;
+  background-color: #ffff89;
+  border-radius: 10px;
+}
+#total {
+width:1250px;
+margin-left: auto;
+margin-right: auto;
+text-align: right;
+color: red;
+}
+#buy {
+width:1250px;
+margin-left: auto;
+margin-right: auto;
+text-align: right;
+}
+#count_data_0 {
+  text-align: center;
+}

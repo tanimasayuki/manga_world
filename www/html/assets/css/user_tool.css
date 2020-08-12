@@ -1,0 +1,12 @@
+body {
+  width: 1333px;
+}
+table {
+    width: 700px;
+    border-collapse: collapse;
+  }
+  table, tr, th, td {
+    border: solid 1px;
+    padding: 10px;
+    text-align: center;
+  }

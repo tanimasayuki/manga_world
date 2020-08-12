@@ -1,0 +1,16 @@
+body {
+  width: 1333px;
+}
+table {
+    width: 1200px;
+    border-collapse: collapse;
+  }
+  table, tr, th, td {
+    border: solid 1px;
+    padding: 10px;
+    text-align: center;
+  }
+  img {
+      max-width:50px;
+      max-height: 54.08px;
+  }

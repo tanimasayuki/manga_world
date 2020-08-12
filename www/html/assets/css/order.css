@@ -1,0 +1,38 @@
+body {
+    width: 1333px;
+}
+header {
+    display: flex;
+}
+.header_menu {
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    text-align: center;
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: yellow;
+    margin-right: 1px;
+    flex: 1;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+    background-color: orange;
+    margin-top: 8px;
+    font: 30px;
+}
+table {
+    width: 900px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, thead, tr, th, td{
+    border: solid 1px;
+    padding: 10px;
+    text-align: center;
+}
+p {
+    text-align: center;
+}

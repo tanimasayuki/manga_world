@@ -1,0 +1,77 @@
+body {
+    width: 1333px;
+}
+header {
+    display: flex;
+}
+.header_menu {
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    text-align: center;
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: yellow;
+    margin-right: 1px;
+    flex: 1;
+}
+#information {
+    display: flex;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#information2 {
+    flex-direction: column;
+    width: 991px;
+}
+.information3 {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+img {
+    width: 250px;
+    border: solid 1px;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+    background-color: orange;
+    margin-top: 8px;
+    font: 30px;
+}
+details {
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: #fffacd;
+}
+summary {
+    cursor: pointer;
+    transition: 0.2s;
+}
+summary:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+#submit {
+    width: 1250px;
+    margin-bottom: 15px;
+}
+textarea{
+    vertical-align: top;
+    margin-bottom: 2px;
+    resize: none;
+}
+.evaluation {
+    color:#ff8c00;
+}
+#review{
+    display: block;
+    margin-left: 333px ;
+}
+#p {
+    text-align:center;
+    color: red;
+    font-size: 20px;
+}
