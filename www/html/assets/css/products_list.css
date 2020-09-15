@@ -89,6 +89,15 @@ label {
 select {
     height: 22px;
 }
+#list {
+    opacity: 0.1;
+    transition: .6s;
+    margin-top: 60px;
+}
+#list.showUp {
+    opacity: 1;
+    margin-top: 0;
+}
 #flex {
     width: 1200px;
     margin-left: auto;

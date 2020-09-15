@@ -5,6 +5,15 @@
     <title>作品一覧</title>
     <link rel="stylesheet" href="html5reset-1.6.1.css">
     <link rel="stylesheet" href="<?php print(STYLESHEET_PATH . 'products_list.css'); ?>">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            // 一旦hide()で隠してからフェードイン
+            $('#list').hide().fadeIn('fast');
+            // class'showUp'を#listに追加
+            $('#list').addClass('showUp');
+        });
+    </script>
 </head>
 
 <body>
@@ -110,7 +119,7 @@
         
         <!---- DBに登録された内容を出力する ---->
         <section>
-            <div>
+            <div id="list">
             <?php foreach($data as $value) { ?>
                 <div id="flex">
                     <div class="book">
